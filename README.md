@@ -1,9 +1,10 @@
-# Algorithmes générateurs d'improvisation musicale
-Ce projet explore différentes manières de créer des algorithmes générant des musiques.
+# Musical improvisation generation algorithms
 
-Le premier utilise l'oracle des facteurs, algorithmes initialement conçu pour la recherche de motif, et présente l'avantage de fonctionner linéairement en temps et espace.
+This project explores various ways to create music-generating algorithms.
 
-Le second se base sur les chaines de Markov, généralisé à des transitions de taille différente. La génération se base sur une matrice de transitions remplie lors de l'entrainement semi-supervisé, où l'on mélange évaluation humaine et automatique avec la distance d'édition.
+The first approach employs the factor oracle, an algorithm originally designed for pattern matching, which offers the advantage of linear time and space complexity.
 
-Enfin, on ajoute une génération d'accords par IA en utilisant les réseaux de neurones LSTM.
+The second approach is based on Markov chains, generalized to handle transitions of varying lengths. Generation relies on a transition matrix populated during semi-supervised training, which combines human evaluation with automated assessment using edit distance.
+
+Finally, AI-driven chord generation is incorporated using LSTM neural networks.
 
